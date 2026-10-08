@@ -1,0 +1,6 @@
+{
+  "name": "EPP NATUR - Production Portal",
+  "description": "Central production applications portal for EPP NATUR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
