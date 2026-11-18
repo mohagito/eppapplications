@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { ArrowRight, Lock, Layers } from 'lucide-react';
+import logoEppNatur from './assets/logo-eppnatur.webp';
 
 interface AppCardProps {
   badge: string;
@@ -100,7 +101,7 @@ function EppNaturLogo() {
   return (
     <div className="flex flex-col items-center select-none">
       <img
-        src="https://www.eppnatur.es/media/yootheme/cache/1c/logo_eppnatur_3-1ce587ca.webp"
+        src={logoEppNatur}
         alt="EPP NATUR"
         className="h-16 sm:h-20 w-auto object-contain max-w-[280px] sm:max-w-[340px]"
         loading="eager"
